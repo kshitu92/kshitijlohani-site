@@ -8,7 +8,7 @@ const Intro = () => {
     text: (
       <>
         <p>
-          Hi, my name is Adriano Smith and I began using WordPress when it first
+          Namaskar, my name is Kshitij Raj Lohani and I began using WordPress when it first
           began. I’ve spent most of my waking hours for the last ten years
           designing, programming and operating WordPress sites.
         </p>
@@ -25,13 +25,13 @@ const Intro = () => {
 
   return (
     <>
-      <div className="top_author_image">
+      {/* <div className="top_author_image">
         <img src={introContent.image} alt="about" />
-      </div>
-      <div className="about_title">
+      </div> */}
+      {/* <div className="about_title">
         <h3>{introContent.name}</h3>
         <span>{introContent.designation}</span>
-      </div>
+      </div> */}
       <div className="about_text">{introContent.text}</div>
     </>
   );

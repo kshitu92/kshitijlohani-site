@@ -18,16 +18,16 @@ const AboutMain = () => {
             <div className="title_flex">
               <div className="left">
                 <span>About</span>
-                <h3>About Me</h3>
+                {/* <h3>About Me</h3> */}
               </div>
             </div>
           </div>
           {/* End title */}
 
           <Intro />
-          <div className="tokyo_tm_short_info">
+          {/* <div className="tokyo_tm_short_info">
             <PersonalInfo />
-          </div>
+          </div> */}
           {/* End personal info */}
 
           <div className="tokyo_tm_button" data-position="left">
@@ -39,24 +39,24 @@ const AboutMain = () => {
       </div>
       {/* End .container */}
 
-      <div className="tokyo_tm_progressbox">
-        <div className="container">
-          <div className="in">
-            <Skills />
-          </div>
+      {/* <div className="tokyo_tm_progressbox"> */}
+        {/* <div className="container"> */}
+          {/* <div className="in"> */}
+            {/* <Skills /> */}
+          {/* </div> */}
           {/* End in */}
-        </div>
+         {/* </div> */}
         {/* End .container */}
-      </div>
+       {/* </div> */}
       {/* End tokyo_tm_progressbox */}
 
-      <div className="tokyo_tm_skillbox">
+      {/* <div className="tokyo_tm_skillbox">
         <div className="container">
           <div className="in">
             <KnowledgeInterest />
           </div>
         </div>
-      </div>
+      </div> */}
       {/* End .tokyo_tm_skillbox */}
 
       <div className="tokyo_tm_resumebox">
@@ -68,7 +68,7 @@ const AboutMain = () => {
       </div>
       {/* End tokyo_tm_resumebox */}
 
-      <div className="tokyo_tm_testimonials">
+      {/* <div className="tokyo_tm_testimonials">
         <div className="container">
           <div className="tokyo_section_title">
             <h3>Testimonials</h3>
@@ -77,7 +77,7 @@ const AboutMain = () => {
             <Testimonial />
           </div>
         </div>
-      </div>
+      </div> */}
       {/* End tokyo_tm_testimonials */}
 
       {/* /ABOUT */}

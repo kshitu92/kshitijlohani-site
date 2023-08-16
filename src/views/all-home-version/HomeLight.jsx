@@ -6,6 +6,8 @@ import Home from "../../components/Home";
 import About from "../../components/about/AboutMain";
 import Portfolio from "../../components/PortfolioCreative";
 import News from "../../components/News";
+import Initiatives from "../../components/Initiatives"
+import Experience from "../../components/Experience";
 import ServiceMain from "../../components/service/ServiceMain";
 import Contact from "../../components/Contact";
 import CopyRight from "../../components/CopyRight";
@@ -81,6 +83,22 @@ const HomeLight = () => {
                   <Tab>
                     <img
                       className="svg"
+                      src="/assets/img/svg/paper.svg"
+                      alt="paper"
+                    />
+                    <span className="menu_content">Experience</span>
+                  </Tab>
+                  <Tab>
+                    <img
+                      className="svg"
+                      src="/assets/img/svg/paper.svg"
+                      alt="paper"
+                    />
+                    <span className="menu_content">Education</span>
+                  </Tab>
+                  <Tab>
+                    <img
+                      className="svg"
                       src="/assets/img/svg/briefcase.svg"
                       alt="briefcase"
                     />
@@ -135,6 +153,27 @@ const HomeLight = () => {
                 </div>
               </TabPanel>
               {/* END ABOUT MENU TAB CONTENT */}
+
+              <TabPanel>
+                <div
+                  data-aos="fade-right"
+                  data-aos-duration="1200"
+                  data-aos-delay="100"
+                >
+                  <Initiatives />
+                </div>
+              </TabPanel>
+              {/* END ABOUT MENU TAB CONTENT */}
+
+              <TabPanel>
+                <div
+                  data-aos="fade-right"
+                  data-aos-duration="1200"
+                  data-aos-delay="100"
+                >
+                  <Experience />
+                </div>
+              </TabPanel>
 
               <TabPanel>
                 <div
