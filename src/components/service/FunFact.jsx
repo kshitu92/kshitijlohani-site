@@ -4,18 +4,13 @@ const FunFact = () => {
   const funFactContent = [
     {
       id: 1,
-      number: "777+",
-      meta: "Projects Completed",
+      number: "Northeastern University",
+      meta: "B.Sc in Computer Engineering (HONS)",
     },
     {
       id: 2,
       number: "3K",
       meta: "Happy Clients",
-    },
-    {
-      id: 3,
-      number: "9K+",
-      meta: "Lines of Code",
     },
   ];
   return (

@@ -10,7 +10,7 @@ const Home = () => {
             <div
               className="image avatar_img"
               style={{
-                backgroundImage: "url(assets/img/slider/1.jpg)",
+                backgroundImage: "url(assets/img/slider/krl-builder.png)",
               }}
             ></div>
             {/* END AVATAR IMAGE */}
@@ -19,8 +19,7 @@ const Home = () => {
           <div className="details">
             <h3 className="name">Kshitij Raj Lohani</h3>
             <p className="job">
-              Creative Photographer based in New York and happy to travel all
-              over Europe to capture photos.
+            Learning tech for inclusive and equitable community.
             </p>
             {/* END JOB */}
             <Social />

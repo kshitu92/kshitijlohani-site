@@ -9,6 +9,7 @@ import News from "../../components/News";
 import Initiatives from "../../components/Initiatives"
 import Experience from "../../components/Experience";
 import ServiceMain from "../../components/service/ServiceMain";
+import Education from "../../components/service/Education";
 import Contact from "../../components/Contact";
 import CopyRight from "../../components/CopyRight";
 import PageTitle from "../../components/PageTitle";
@@ -30,7 +31,7 @@ const HomeLight = () => {
       <PageTitle title="Home Regular" />
       {/* End page title for seo */}
 
-      <button className="theme-switcher-label" onClick={toggleDarkMode}>
+      {/* <button className="theme-switcher-label" onClick={toggleDarkMode}>
         {isDarkMode ? (
           <>
             <FaSun />
@@ -40,7 +41,7 @@ const HomeLight = () => {
             <FaMoon />
           </>
         )}
-      </button>
+      </button> */}
 
       <Tabs>
         <TabList>
@@ -48,23 +49,23 @@ const HomeLight = () => {
           <div className="leftpart">
             <div className="leftpart_inner">
               <div className="logo">
-                <Link className="navbar-brand" to="/">
+                {/* <Link className="navbar-brand" to="/">
                   <img src="/assets/img/logo/dark.png" alt="brand" />
-                </Link>
+                </Link> */}
               </div>
               {/* END LOGO */}
 
               <div className="menu">
                 <ul>
                   <Tab>
-                    <img
+                    {/* <img
                       className="svg"
                       src="/assets/img/svg/home-run.svg"
                       alt="homerun"
-                    />
-                    <span className="menu_content">Home</span>
+                    /> */}
+                    <span className="menu_content">Visit back soon! </span>
                   </Tab>
-                  <Tab>
+                  {/* <Tab>
                     <img
                       className="svg"
                       src="/assets/img/svg/avatar.svg"
@@ -119,12 +120,12 @@ const HomeLight = () => {
                       alt="mail"
                     />
                     <span className="menu_content"> Contact</span>
-                  </Tab>
+                  </Tab> */}
                 </ul>
               </div>
               {/* END MENU */}
 
-              <CopyRight />
+              {/* <CopyRight /> */}
               {/* END COPYRIGHT */}
             </div>
           </div>
@@ -181,7 +182,7 @@ const HomeLight = () => {
                   data-aos-duration="1200"
                   data-aos-delay="100"
                 >
-                  <ServiceMain />
+                  <Education />
                 </div>
               </TabPanel>
               {/* END ABOUT MENU TAB CONTENT */}

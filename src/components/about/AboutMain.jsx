@@ -30,11 +30,11 @@ const AboutMain = () => {
           </div> */}
           {/* End personal info */}
 
-          <div className="tokyo_tm_button" data-position="left">
+          {/* <div className="tokyo_tm_button" data-position="left">
           <a href="assets/img/cv.pdf" download>
               <span>Download CV</span>
             </a>
-          </div>
+          </div> */}
         </div>
       </div>
       {/* End .container */}
@@ -59,13 +59,13 @@ const AboutMain = () => {
       </div> */}
       {/* End .tokyo_tm_skillbox */}
 
-      <div className="tokyo_tm_resumebox">
+      {/* <div className="tokyo_tm_resumebox">
         <div className="container">
           <div className="in">
             <Resume />
           </div>
         </div>
-      </div>
+      </div> */}
       {/* End tokyo_tm_resumebox */}
 
       {/* <div className="tokyo_tm_testimonials">

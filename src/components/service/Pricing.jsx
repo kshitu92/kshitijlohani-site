@@ -4,8 +4,8 @@ const Pricing = () => {
   const pricingContent = [
     {
       id: 1,
-      price: "0",
-      type: "Free",
+      price: "Northeastern University",
+      type: "B.Sc in Computer Engineering (HONS)",
       features: [
         "Premium Icons",
         "Quality Logo",
@@ -14,30 +14,30 @@ const Pricing = () => {
       ],
       isPopular: "",
     },
-    {
-      id: 2,
-      price: "30",
-      type: "Basic",
-      features: [
-        "Premium Icons",
-        "Quality Logo",
-        "Stock Images",
-        "Free Support",
-      ],
-      isPopular: "Popular",
-    },
-    {
-      id: 3,
-      price: "70",
-      type: "Premium",
-      features: [
-        "Premium Icons",
-        "Quality Logo",
-        "Stock Images",
-        "Free Support",
-      ],
-      isPopular: "",
-    },
+    // {
+    //   id: 2,
+    //   price: "30",
+    //   type: "Basic",
+    //   features: [
+    //     "Premium Icons",
+    //     "Quality Logo",
+    //     "Stock Images",
+    //     "Free Support",
+    //   ],
+    //   isPopular: "Popular",
+    // },
+    // {
+    //   id: 3,
+    //   price: "70",
+    //   type: "Premium",
+    //   features: [
+    //     "Premium Icons",
+    //     "Quality Logo",
+    //     "Stock Images",
+    //     "Free Support",
+    //   ],
+    //   isPopular: "",
+    // },
   ];
   return (
     <>
@@ -48,7 +48,7 @@ const Pricing = () => {
               <h3>
                 <span>
                   {item.price}
-                  <span className="currency">$</span>
+                  {/* <span className="currency">$</span> */}
                 </span>
               </h3>
             </div>

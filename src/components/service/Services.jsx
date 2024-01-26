@@ -16,14 +16,14 @@ const Services = () => {
     {
       id: 1,
       no: "01",
-      title: "Web Design",
+      title: "Northeastern University",
       text: `Web development is the most famous job in the world and it is very
       interesting...`,
     },
     {
       id: 2,
       no: "02",
-      title: "Content Writing",
+      title: "Chelsea Int'l Academy",
       text: `Web development is the most famous job in the world and it is very
       interesting...`,
     },
@@ -62,7 +62,7 @@ const Services = () => {
       {serviceContent.map((item) => (
         <li key={item.id}>
           <div className="list_inner">
-            <span className="number">{item.no}</span>
+            {/* <span className="number">{item.no}</span> */}
             <h3 className="title">{item.title}</h3>
             <p className="text">{item.text}</p>
             <div className="tokyo_tm_read_more">
