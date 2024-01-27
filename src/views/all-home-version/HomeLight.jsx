@@ -63,7 +63,7 @@ const HomeLight = () => {
                       src="/assets/img/svg/home-run.svg"
                       alt="homerun"
                     /> */}
-                    <span className="menu_content">Visit back soon! </span>
+                    <span className="menu_content">Visit back soon!</span>
                   </Tab>
                   {/* <Tab>
                     <img
