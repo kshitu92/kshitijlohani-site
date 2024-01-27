@@ -28,7 +28,7 @@ const HomeLight = () => {
 
   return (
     <>
-      <PageTitle title="Home Regular" />
+      <PageTitle title="Kshitij Raj Lohani" />
       {/* End page title for seo */}
 
       {/* <button className="theme-switcher-label" onClick={toggleDarkMode}>
